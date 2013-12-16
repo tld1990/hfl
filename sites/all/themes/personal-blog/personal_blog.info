@@ -1,0 +1,44 @@
+name = "Personal Blog"
+description = Theme for blog websites.
+version = VERSION
+core = 7.x
+engine = 'phptemplate'
+base theme = 'weeblog'
+
+features[] = 'logo'
+features[] = 'name'
+features[] = 'slogan'
+features[] = 'node_user_picture'
+features[] = 'comment_user_picture'
+features[] = 'comment_user_verification'
+features[] = 'favicon'
+
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[main_menu] = Main Menu
+regions[featured] = Featured
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[panel_first_1] = Panel First 1
+regions[panel_first_2] = Panel First 2
+regions[panel_first_3] = Panel First 3
+
+regions[footer] = Footer
+
+settings[sidebar_first_width] = 4
+settings[sidebar_second_width] = 4
+
+settings[panel_first_1_width] = 4
+settings[panel_first_2_width] = 4
+settings[panel_first_3_width] = 4
+
+skins[orange] = 'Orange'
+skins[green] = 'Green'
+skins[dark_orange] = 'Dark Orange'
+skins[blue] = 'Blue'
